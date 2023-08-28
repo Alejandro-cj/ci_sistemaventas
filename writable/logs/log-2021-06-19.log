@@ -1,0 +1,24 @@
+CRITICAL - 2021-06-19 19:07:53 --> Too few arguments to function App\Controllers\Ventas::generar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 19:08:59 --> Too few arguments to function App\Controllers\Ventas::generar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 19:27:47 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Productos->actualizar()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-19 19:28:05 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Productos->actualizar()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

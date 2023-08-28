@@ -1,0 +1,138 @@
+CRITICAL - 2021-05-20 13:39:18 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(183): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\framework\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-05-20 13:39:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(183): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\framework\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-05-20 13:39:55 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(183): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\framework\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-05-20 13:40:09 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(183): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\framework\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-05-20 13:40:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(183): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\framework\system\bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\framework\public\index.php(27): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-05-20 13:56:25 --> Invalid file: usuarios.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(9): view('usuarios')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->index()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-20 14:31:08 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->registrar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-20 15:28:37 --> Call to undefined method App\Controllers\Usuarios::getMethod()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->registrar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-20 19:51:12 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#3 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(88): view('usuarios/nuevo')
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->nuevo()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-20 19:58:33 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#3 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(88): view('usuarios/nuevo')
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->nuevo()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-20 20:00:46 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#3 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(88): view('usuarios/nuevo')
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->nuevo()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-20 20:23:28 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#3 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(77): view('usuarios/nuevo')
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->nuevo()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-20 21:15:13 --> syntax error, unexpected ''.$data[$i]['' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-05-20 21:34:30 --> Invalid file: usuarios/editar/.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/editar...')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/editar...', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(136): view('usuarios/editar...', Array)
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->actualizar()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-05-20 21:37:44 --> Duplicate entry 'ana' for key 'usuario'
+CRITICAL - 2021-05-20 21:39:02 --> Invalid file: usuarios/editar/3.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/editar...')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/editar...', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(156): view('usuarios/editar...', Array)
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->actualizar()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-20 21:39:35 --> Invalid file: usuarios/editar/:id.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/editar...')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/editar...', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(156): view('usuarios/editar...', Array)
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->actualizar()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-20 21:39:54 --> Invalid file: usuarios/editar/1.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/editar...')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/editar...', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(156): view('usuarios/editar...', Array)
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->actualizar()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

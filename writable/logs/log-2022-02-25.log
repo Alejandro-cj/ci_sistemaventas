@@ -1,0 +1,350 @@
+ERROR - 2022-02-25 08:05:04 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 08:05:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 08:05:04 --> Unknown column 'vencimiento' in 'where clause'
+CRITICAL - 2022-02-25 08:05:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(161): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->vencidos()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 08:31:10 --> Unknown column 'vencimiento' in 'where clause'
+CRITICAL - 2022-02-25 08:31:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 08:31:41 --> Unknown column 'vencimiento' in 'where clause'
+CRITICAL - 2022-02-25 08:31:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 08:31:54 --> Unknown column 'vencimiento' in 'where clause'
+CRITICAL - 2022-02-25 08:31:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 08:31:55 --> Unknown column 'vencimiento' in 'where clause'
+CRITICAL - 2022-02-25 08:31:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 08:31:56 --> Unknown column 'vencimiento' in 'where clause'
+CRITICAL - 2022-02-25 08:31:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 08:43:25 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 08:43:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:05:07 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:05:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:07:43 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:07:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:08:13 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:08:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:08:32 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:08:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:08:51 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:08:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:09:07 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:09:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:09:22 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:09:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:11:03 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:11:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:11:12 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:11:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:11:20 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:11:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:11:42 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:11:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:11:58 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:11:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:12:51 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:12:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:13:01 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:13:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:14:16 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:14:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:17:36 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:17:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:17:53 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:17:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:18:34 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:18:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 10:20:00 --> Unknown column 'inventariable' in 'where clause'
+CRITICAL - 2022-02-25 10:20:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(123): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->grafico()
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-25 13:13:20 --> Undefined array key "password"
+#0 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Usuarios.php(408): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 408)
+#1 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Usuarios->cambiar()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 13:16:00 --> Undefined array key "password"
+#0 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Usuarios.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 409)
+#1 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Usuarios->cambiar()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 13:16:45 --> Undefined array key "password"
+#0 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Usuarios.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 409)
+#1 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Usuarios->cambiar()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 13:52:18 --> Undefined variable $data
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\admin\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(100): view('admin/index', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 13:53:01 --> Undefined variable $data
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\admin\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(101): view('admin/index', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 13:53:13 --> Undefined variable $data
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\admin\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(101): view('admin/index', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 13:53:32 --> Undefined variable $data
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\admin\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(101): view('admin/index', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 13:53:44 --> Undefined variable $data
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\admin\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(101): view('admin/index', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 13:59:32 --> syntax error, unexpected token "=>", expecting "]"
+#0 C:\xampp\htdocs\pos_codeigniter\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pos_codeigniter\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-25 14:00:39 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\clientes\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('clientes/editar', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Clientes.php(120): view('clientes/editar', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Clientes->actualizar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-25 14:02:16 --> Undefined variable $medida
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\medidas\editar.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('medidas/editar', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Medidas.php(103): view('medidas/editar', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Medidas->actualizar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

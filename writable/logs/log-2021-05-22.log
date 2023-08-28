@@ -1,0 +1,330 @@
+CRITICAL - 2021-05-22 10:35:03 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Medidas.php(60): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Medidas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 10:38:37 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Medidas.php(91): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Medidas->actualizar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:44:54 --> Table 'codeigniter.categorias' doesn't exist
+CRITICAL - 2021-05-22 10:44:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:45:10 --> Table 'codeigniter.categorias' doesn't exist
+CRITICAL - 2021-05-22 10:45:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:45:13 --> Table 'codeigniter.categorias' doesn't exist
+CRITICAL - 2021-05-22 10:45:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:46:31 --> Table 'codeigniter.categorias' doesn't exist
+CRITICAL - 2021-05-22 10:46:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:47:16 --> Table 'codeigniter.categorias' doesn't exist
+CRITICAL - 2021-05-22 10:47:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:48:28 --> Table 'codeigniter.categorias' doesn't exist
+CRITICAL - 2021-05-22 10:48:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:48:49 --> Table 'codeigniter.categorias' doesn't exist
+CRITICAL - 2021-05-22 10:48:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(31): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 10:50:51 --> Unknown table 'codeigniter.categorias'
+CRITICAL - 2021-05-22 10:53:15 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 10:59:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Marcas.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Marcas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 11:08:11 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\framework\app\Views\productos\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('productos/nuevo', Array, true)
+#4 C:\xampp\htdocs\framework\app\Controllers\Productos.php(121): view('productos/nuevo', Array)
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->nuevo()
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-22 11:13:02 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->nuevo()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-22 11:13:45 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->nuevo()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-22 19:31:25 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 19:31:43 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Medidas.php(60): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Medidas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 19:31:58 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Marcas.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Marcas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:08:19 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(108): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:09:17 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(108): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:13:19 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(108): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:13:29 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(108): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:14:44 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(108): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:15:32 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(108): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:19:32 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(100): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:19:45 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(103): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:20:01 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-22 20:20:17 --> Argument 1 passed to CodeIgniter\Validation\Validation::setRules() must be of the type array, null given, called in C:\xampp\htdocs\framework\system\Controller.php on line 183
+#0 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->setRules(NULL, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(91): CodeIgniter\Controller->validate(NULL)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-22 20:26:07 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-22 20:26:07 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('oiiopipo', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', 'oiiopipo', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-22 20:27:00 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-22 20:27:00 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('880980908', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '880980908', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-22 20:28:12 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-22 20:28:12 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('880980908', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '880980908', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-22 20:28:28 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-22 20:28:28 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('880980908', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '880980908', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-22 20:29:14 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-22 20:29:14 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('880980908', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '880980908', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-22 20:43:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT NOT NULL,
+	`id_med...' at line 6
+ERROR - 2021-05-22 20:45:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT NOT NULL,
+	`id_med...' at line 6
+ERROR - 2021-05-22 20:48:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT NOT NULL,
+	`id_med...' at line 6
+ERROR - 2021-05-22 20:49:29 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 20:49:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT NOT NULL,
+	`id_med...' at line 6
+ERROR - 2021-05-22 20:52:06 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 20:52:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT NOT NULL,
+	`id_med...' at line 6
+ERROR - 2021-05-22 21:02:07 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 21:02:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+ERROR - 2021-05-22 21:19:52 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 21:19:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+ERROR - 2021-05-22 21:23:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+ERROR - 2021-05-22 21:24:38 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 21:24:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+ERROR - 2021-05-22 21:27:54 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 21:27:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+ERROR - 2021-05-22 21:29:27 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 21:29:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+ERROR - 2021-05-22 21:32:35 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-22 21:32:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+ERROR - 2021-05-22 21:37:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6

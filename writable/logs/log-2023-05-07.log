@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-07 09:55:04 --> There is no data to update.
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci4\system\Model.php(718): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\xampp\htdocs\ci4\app\Controllers\Cajas.php(221): CodeIgniter\Model->update()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(931): App\Controllers\Cajas->registrarCajaCierre()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

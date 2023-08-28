@@ -1,0 +1,12 @@
+CRITICAL - 2021-05-24 20:05:07 --> usuario is not a valid Validation template.
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(530): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('usuario')
+#1 C:\xampp\htdocs\framework\app\Views\usuarios\nuevo.php(12): CodeIgniter\Validation\Validation->listErrors('usuario')
+#2 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#5 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(113): view('usuarios/nuevo', Array)
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->registrar()
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#8 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}

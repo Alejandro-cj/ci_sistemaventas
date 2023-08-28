@@ -1,0 +1,247 @@
+CRITICAL - 2022-12-06 12:30:27 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Home.php(22): view('login')
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 12:30:47 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Home.php(22): view('login')
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 12:31:57 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Home.php(22): view('login')
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 12:32:11 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Home.php(22): view('login')
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 12:32:12 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Home.php(22): view('login')
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 12:34:08 --> Undefined variable $cajas
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\usuarios\editar.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/editar', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Usuarios.php(193): view('usuarios/editar', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Usuarios->actualizar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 13:27:45 --> Undefined variable $medida
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\medidas\editar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('medidas/editar', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Medidas.php(103): view('medidas/editar', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Medidas->actualizar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-06 13:29:56 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-12-06 13:29:56 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('BEBIDAS', 'medida', Array, NULL)
+#1 C:\xampp\htdocs\pos_codeigniter\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('medida', 'medida', 'BEBIDAS', Array, Array)
+#2 C:\xampp\htdocs\pos_codeigniter\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Medidas.php(91): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Medidas->actualizar()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-12-06 13:30:37 --> Unknown column 'id' in 'where clause'
+CRITICAL - 2022-12-06 13:30:37 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('BEBIDAS', 'medida', Array, NULL)
+#1 C:\xampp\htdocs\pos_codeigniter\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('medida', 'medida', 'BEBIDAS', Array, Array)
+#2 C:\xampp\htdocs\pos_codeigniter\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Medidas.php(91): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Medidas->actualizar()
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-06 14:06:08 --> Undefined variable $marca
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\marcas\editar.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('marcas/editar', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Marcas.php(93): view('marcas/editar', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Marcas->actualizar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 14:23:16 --> Undefined variable $producto
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\productos\editar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Productos.php(205): view('productos/edita...', Array)
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Productos->actualizar()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 15:30:17 --> Undefined property: App\Controllers\Admin::$model
+#0 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion('2022')
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-12-06 15:32:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fecha) = 2,...' at line 1
+CRITICAL - 2022-12-06 15:32:21 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(141): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion('2022')
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-06 15:34:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fecha) = 2,...' at line 1
+CRITICAL - 2022-12-06 15:34:39 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(141): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion('2022')
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-06 15:34:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fecha) = 2,...' at line 1
+CRITICAL - 2022-12-06 15:34:40 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(141): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion('2022')
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-06 15:34:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fecha) = 2,...' at line 1
+CRITICAL - 2022-12-06 15:34:40 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(141): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion('2022')
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-06 15:35:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fecha) = 2,...' at line 1
+ERROR - 2022-12-06 15:35:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fecha) = 2,...' at line 1
+ERROR - 2022-12-06 15:36:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+ERROR - 2022-12-06 15:38:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+ERROR - 2022-12-06 15:38:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+ERROR - 2022-12-06 15:38:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+ERROR - 2022-12-06 15:38:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+ERROR - 2022-12-06 15:40:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+ERROR - 2022-12-06 15:40:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+CRITICAL - 2022-12-06 15:40:38 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(142): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion('2022')
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-12-06 15:42:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT
+        SUM(IF(MONTH(fecha) = 1, `total`, 0)) AS ene, SUM(IF(MONTH(fe...' at line 1
+CRITICAL - 2022-12-06 15:42:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos_codeigniter\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(142): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion('2022')
+#3 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-06 15:47:56 --> Too few arguments to function App\Controllers\Admin::comparacion(), 0 passed in C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion()
+#1 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-06 15:48:05 --> Too few arguments to function App\Controllers\Admin::comparacion(), 0 passed in C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->comparacion()
+#1 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-12-06 18:35:45 --> Undefined variable $session
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\templates\header.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(118): view('templates/heade...')
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->dashboard()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-06 18:39:01 --> Undefined variable $nombre
+#0 C:\xampp\htdocs\pos_codeigniter\app\Views\templates\header.php(151): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos_codeigniter\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos_codeigniter\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 C:\xampp\htdocs\pos_codeigniter\app\Controllers\Admin.php(118): view('templates/heade...')
+#5 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(931): App\Controllers\Admin->dashboard()
+#6 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\pos_codeigniter\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos_codeigniter\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-06 20:04:44 --> Table 'u144294698_ci4_pos1.usuarios' doesn't exist
+CRITICAL - 2022-12-06 20:04:44 --> Call to a member function getFirstRow() on bool
+#0 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/app/Controllers/Home.php(17): CodeIgniter\BaseModel->first()
+#2 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(931): App\Controllers\Home->index()
+#3 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController()
+#4 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-06 20:17:03 --> fopen(https://informatica-programacion.com/ci4/public/img/logo.png): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/app/Libraries/fpdf/fpdf.php(1257): fopen()
+#2 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/app/Libraries/fpdf/fpdf.php(885): FPDF->_parsepng()
+#3 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/app/Controllers/Compras.php(221): FPDF->Image()
+#4 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(931): App\Controllers\Compras->generarPdf()
+#5 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController()
+#6 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

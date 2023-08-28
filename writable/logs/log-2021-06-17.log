@@ -1,0 +1,25 @@
+CRITICAL - 2021-06-17 21:06:44 --> Call to undefined method App\Controllers\Cajas::select()
+#0 C:\xampp\htdocs\framework\app\Controllers\Cajas.php(31): App\Controllers\Cajas->verificarPermisos('1', 'cajas')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(903): App\Controllers\Cajas->__construct()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-17 21:08:32 --> Invalid file: permisos.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('permisos.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('permisos', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Cajas.php(33): view('permisos')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(903): App\Controllers\Cajas->__construct()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-17 21:45:59 --> dir(./img/productos/,./img/productos/): El sistema no puede encontrar el archivo especificado. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'dir(./img/produ...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(141): dir('./img/productos...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-17 21:46:25 --> Duplicate entry '5' for key 'codigo'

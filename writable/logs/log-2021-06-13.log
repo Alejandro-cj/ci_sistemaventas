@@ -1,0 +1,214 @@
+ERROR - 2021-06-13 10:57:13 --> Column 'id_cliente' cannot be null
+ERROR - 2021-06-13 10:59:32 --> Table 'codeigniter.detalle_venta' doesn't exist
+ERROR - 2021-06-13 10:59:32 --> Table 'codeigniter.detalle_venta' doesn't exist
+CRITICAL - 2021-06-13 10:59:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Ventas.php(127): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->generarPdf('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 11:01:01 --> Table 'codeigniter.detalle_venta' doesn't exist
+CRITICAL - 2021-06-13 11:01:01 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Ventas.php(127): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->generarPdf('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 11:01:27 --> Table 'codeigniter.detalle_venta' doesn't exist
+CRITICAL - 2021-06-13 11:01:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Ventas.php(127): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->generarPdf('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 11:01:51 --> Table 'codeigniter.detalle_venta' doesn't exist
+CRITICAL - 2021-06-13 11:01:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Ventas.php(127): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->generarPdf('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 11:02:05 --> Table 'codeigniter.detalle_venta' doesn't exist
+CRITICAL - 2021-06-13 11:02:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Ventas.php(127): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->generarPdf('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 11:02:48 --> Table 'codeigniter.detalle_venta' doesn't exist
+CRITICAL - 2021-06-13 11:02:48 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Ventas.php(127): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->generarPdf('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 11:59:40 --> Column 'precio' cannot be null
+CRITICAL - 2021-06-13 12:02:46 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\framework\app\Controllers\Compras.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 12:10:05 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->eliminar('1')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-13 12:12:31 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->eliminar('1')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-13 12:13:38 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->eliminar('1')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-13 12:14:34 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->eliminar('1')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-13 12:17:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS `id_temp` DESC' at line 5
+CRITICAL - 2021-06-13 12:17:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Ventas.php(114): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Ventas->detalle()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 12:21:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS `id_temp` DESC' at line 5
+CRITICAL - 2021-06-13 12:21:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Compras.php(109): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->detalle()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 20:06:00 --> Unknown column 'id_venta' in 'where clause'
+CRITICAL - 2021-06-13 20:06:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\framework\app\Controllers\Compras.php(155): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 20:07:11 --> Unknown column 'id_venta' in 'where clause'
+CRITICAL - 2021-06-13 20:07:11 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\framework\app\Controllers\Compras.php(155): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-13 20:13:06 --> Unknown column 'id_venta' in 'where clause'
+CRITICAL - 2021-06-13 20:13:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\framework\app\Controllers\Compras.php(155): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-13 20:13:55 --> Illegal string offset 'cantidad'
+#0 C:\xampp\htdocs\framework\app\Controllers\Compras.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 20:15:06 --> Illegal string offset 'id_producto'
+#0 C:\xampp\htdocs\framework\app\Controllers\Compras.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 20:16:04 --> Illegal string offset 'id_producto'
+#0 C:\xampp\htdocs\framework\app\Controllers\Compras.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 20:18:01 --> Illegal string offset 'id_producto'
+#0 C:\xampp\htdocs\framework\app\Controllers\Compras.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 20:18:57 --> Illegal string offset 'id_producto'
+#0 C:\xampp\htdocs\framework\app\Controllers\Compras.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 158, Array)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 20:22:41 --> There is no data to update.
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(896): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\framework\app\Controllers\Compras.php(163): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->anular('1')
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-13 21:07:58 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\framework\app\Views\productos\editar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\xampp\htdocs\framework\app\Controllers\Productos.php(161): view('productos/edita...', Array)
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->editar('4')
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-13 21:46:03 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('admin/bd')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('admin/bd')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 21:46:50 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('admin/bd')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('admin/bd')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 21:47:27 --> Call to a member function getTempName() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Admin->cargar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-13 21:56:26 --> Call to a member function getTempName() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Admin->cargar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

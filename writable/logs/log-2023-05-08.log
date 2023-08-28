@@ -1,0 +1,10 @@
+ERROR - 2023-05-08 20:46:15 --> Unknown column 'caja' in 'where clause'
+CRITICAL - 2023-05-08 20:46:15 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\ci4\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\ci4\app\Controllers\Cajas.php(177): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\ci4\app\Controllers\Cajas.php(168): App\Controllers\Cajas->verficarCaja('1')
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(931): App\Controllers\Cajas->cerrar()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,101 @@
+CRITICAL - 2021-05-21 09:28:52 --> There is no data to update.
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(1668): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\framework\system\BaseModel.php(880): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(171): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->restaurar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-21 10:06:16 --> Table 'usuarios' already exists
+ERROR - 2021-05-21 10:10:18 --> Table 'usuarios' already exists
+ERROR - 2021-05-21 10:10:18 --> Table 'cajas' already exists
+ERROR - 2021-05-21 10:11:27 --> Can't create table `codeigniter`.`usuarios` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-05-21 10:12:22 --> Unknown table 'codeigniter.usuarios'
+ERROR - 2021-05-21 10:12:23 --> Can't create table `codeigniter`.`usuarios` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2021-05-21 10:13:01 --> Unknown table 'codeigniter.usuarios'
+ERROR - 2021-05-21 10:14:38 --> Can't create table `codeigniter`.`usuarios` (errno: 150 "Foreign key constraint is incorrectly formed")
+CRITICAL - 2021-05-21 10:20:34 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Cajas.php(59): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Cajas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 14:13:13 --> Invalid file: login.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(258): view('login', Array)
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->verificar()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-05-21 14:33:49 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\framework\app\Views\usuarios\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(106): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->registrar()
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-21 14:35:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\framework\app\Views\usuarios\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(106): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->registrar()
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-21 14:39:41 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\framework\app\Views\usuarios\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('usuarios/nuevo', Array, true)
+#4 C:\xampp\htdocs\framework\app\Controllers\Usuarios.php(112): view('usuarios/nuevo', Array)
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Usuarios->registrar()
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-21 14:50:56 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\framework\app\Views\clientes\nuevo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('clientes/nuevo', Array, true)
+#4 C:\xampp\htdocs\framework\app\Controllers\Clientes.php(26): view('clientes/nuevo')
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Clientes->nuevo()
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-05-21 15:00:01 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Clientes->registrar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-21 15:00:30 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Clientes.php(70): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Clientes->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-21 15:01:15 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Clientes.php(70): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Clientes->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

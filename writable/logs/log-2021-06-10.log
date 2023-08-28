@@ -1,0 +1,33 @@
+CRITICAL - 2021-06-10 20:29:03 --> Argument 1 passed to set_value() must be of the type string, null given, called in C:\xampp\htdocs\framework\app\Views\admin\index.php on line 22
+#0 C:\xampp\htdocs\framework\app\Views\admin\index.php(22): set_value(NULL)
+#1 C:\xampp\htdocs\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\framework\app\Controllers\Admin.php(76): view('admin/index', Array)
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-10 20:32:08 --> Unknown column 'caja' in 'where clause'
+CRITICAL - 2021-06-10 20:32:08 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('123456789', 'caja', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('ruc', 'ruc', '123456789', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Admin.php(60): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-06-10 20:33:20 --> Unknown column 'caja' in 'where clause'
+CRITICAL - 2021-06-10 20:33:20 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('123456789', 'caja', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('ruc', 'ruc', '123456789', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Admin.php(61): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Admin->modificar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

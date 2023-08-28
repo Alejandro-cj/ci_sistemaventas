@@ -1,0 +1,6 @@
+CRITICAL - 2023-03-03 13:53:37 --> Too few arguments to function App\Controllers\Ventas::generarPdf(), 0 passed in /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php on line 931 and exactly 1 expected
+#0 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(931): App\Controllers\Ventas->generarPdf()
+#1 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController()
+#2 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/system/CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/u144294698/domains/informatica-programacion.com/public_html/ci4/public/index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

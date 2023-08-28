@@ -1,0 +1,147 @@
+CRITICAL - 2021-06-20 11:40:58 --> Too few arguments to function App\Controllers\Ventas::generar(), 0 passed in C:\xampp\htdocs\pos\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar()
+#1 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-20 11:41:50 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2021-06-20 11:41:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(177): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar('1')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 11:43:46 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2021-06-20 11:43:46 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(177): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar('1')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 11:43:58 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2021-06-20 11:43:58 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(177): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar('1')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 11:44:43 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2021-06-20 11:44:43 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(177): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar('1')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 11:44:50 --> Unknown column 'id_usuario' in 'where clause'
+CRITICAL - 2021-06-20 11:44:51 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(177): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar('1')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 11:45:57 --> Unknown column 'estado' in 'where clause'
+CRITICAL - 2021-06-20 11:45:57 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(177): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->generar('1')
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-20 13:32:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\pos\app\Views\registro.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\pos\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pos\system\Common.php(1250): CodeIgniter\View\View->render('registro', Array, true)
+#4 C:\xampp\htdocs\pos\app\Controllers\Home.php(20): view('registro', Array)
+#5 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-20 13:48:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '0000-00-00' AND `estado` = 1
+OR  `descripcion` LIKE '%lap%' ESCAPE '!'
+AND...' at line 4
+CRITICAL - 2021-06-20 13:48:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 13:48:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '0000-00-00' AND `estado` = 1
+OR  `descripcion` LIKE '%laptop%' ESCAPE '!'
+...' at line 4
+CRITICAL - 2021-06-20 13:48:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 13:48:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '0000-00-00' AND `estado` = 1
+OR  `descripcion` LIKE '%123%' ESCAPE '!'
+AND...' at line 4
+CRITICAL - 2021-06-20 13:48:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 13:49:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '0000-00-00' OR `vencimiento` > '2021-06-20' AND `estado` = 1
+OR  `descripc...' at line 4
+CRITICAL - 2021-06-20 13:49:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 13:52:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '0000-00-00' AND `estado` = 1
+OR  `descripcion` LIKE '%lap%' ESCAPE '!'
+AND...' at line 4
+CRITICAL - 2021-06-20 13:52:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 13:52:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '0000-00-00' AND `estado` = 1
+OR  `descripcion` LIKE '%lapt%' ESCAPE '!'
+AN...' at line 4
+CRITICAL - 2021-06-20 13:52:02 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-20 13:52:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= '0000-00-00' AND `estado` = 1
+OR  `descripcion` LIKE '%laptop%' ESCAPE '!'
+...' at line 4
+CRITICAL - 2021-06-20 13:52:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\pos\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\pos\app\Controllers\Ventas.php(85): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\pos\system\CodeIgniter.php(931): App\Controllers\Ventas->buscar()
+#3 C:\xampp\htdocs\pos\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+#4 C:\xampp\htdocs\pos\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pos\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}

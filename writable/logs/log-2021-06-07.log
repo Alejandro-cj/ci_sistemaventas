@@ -1,0 +1,162 @@
+CRITICAL - 2021-06-07 20:21:52 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-07 20:23:17 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-07 20:54:01 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Marcas.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Marcas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-07 21:08:04 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(137): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-07 21:20:30 --> Class 'App\Models\ComprasModel' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(903): App\Controllers\Compras->__construct()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(429): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:36:08 --> Too few arguments to function App\Controllers\Compras::buscar(), 0 passed in C:\xampp\htdocs\framework\system\CodeIgniter.php on line 931 and exactly 1 expected
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->buscar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:39:49 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->buscar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:39:59 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->buscar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:40:17 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->buscar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:42:26 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->buscar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:43:19 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->buscar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 21:43:35 --> Cannot use object of type App\Models\ProductosModel as array
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->buscar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:01:23 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:01:35 --> Invalid file: compras/nuevo.php
+#0 C:\xampp\htdocs\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compras/nuevo.p...')
+#1 C:\xampp\htdocs\framework\system\Common.php(1250): CodeIgniter\View\View->render('compras/nuevo', Array, true)
+#2 C:\xampp\htdocs\framework\app\Controllers\Compras.php(65): view('compras/nuevo', Array)
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-07 22:02:21 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:06:15 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:07:46 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:08:40 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:09:00 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:09:29 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:09:51 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:11:20 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:13:17 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:13:32 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:18:42 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-07 22:23:19 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}

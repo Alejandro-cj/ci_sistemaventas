@@ -1,0 +1,375 @@
+ERROR - 2021-05-23 10:19:31 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-23 10:19:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2) NOT NULL,
+	`stock_minimo` INT NOT NULL,
+	`id_marca` INT UNSIGNED NOT NULL,...' at line 6
+CRITICAL - 2021-05-23 10:27:44 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Marcas.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Marcas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:27:56 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:28:11 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Medidas.php(60): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Medidas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:30:15 --> syntax error, unexpected ']'
+#0 C:\xampp\htdocs\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('productos/regis...')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('productos/regis...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-23 10:30:47 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-23 10:30:47 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('7978', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '7978', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-23 10:31:02 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-23 10:31:02 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('7978', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '7978', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-23 10:35:40 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-23 10:35:40 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('7978', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '7978', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-23 10:36:18 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-23 10:36:18 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('8799877', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '8799877', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-23 10:37:38 --> Table 'codeigniter.productos' doesn't exist
+CRITICAL - 2021-05-23 10:37:38 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\framework\system\Validation\Validation.php(312): CodeIgniter\Validation\Rules->is_unique('8799877', 'codigo', Array, NULL)
+#1 C:\xampp\htdocs\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('codigo', 'codigo', '8799877', Array, Array)
+#2 C:\xampp\htdocs\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\framework\app\Controllers\Productos.php(106): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#5 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-05-23 10:39:08 --> Unknown table 'codeigniter.productos'
+ERROR - 2021-05-23 10:41:05 --> Unknown column 'codigo' in 'field list'
+CRITICAL - 2021-05-23 10:41:05 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-05-23 10:42:45 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Marcas.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Marcas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marcas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:42:56 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Categorias.php(51): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Categorias->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:43:13 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Medidas.php(60): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Medidas->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 10:43:44 --> Unknown column 'codigo' in 'field list'
+CRITICAL - 2021-05-23 10:43:44 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-05-23 10:45:15 --> Unknown column 'codigo' in 'field list'
+CRITICAL - 2021-05-23 10:45:15 --> Could not move file php8BA7.tmp to ./img/productos/ ()
+#0 C:\xampp\htdocs\framework\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php8BA7.tmp', './img/productos...', '')
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(124): CodeIgniter\HTTP\Files\UploadedFile->move('./img/productos...', 'assets/20210523...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:46:38 --> Could not move file phpCEF5.tmp to ./img/productos/ ()
+#0 C:\xampp\htdocs\framework\system\HTTP\Files\UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpCEF5.tmp', './img/productos...', '')
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(124): CodeIgniter\HTTP\Files\UploadedFile->move('./img/productos...', 'assets/20210523...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:53:35 --> dir(C:\xampp\htdocs\framework\writable\img/productos,C:\xampp\htdocs\framework\writable\img/productos): El sistema no puede encontrar la ruta especificada. (code: 3)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'dir(C:\\xampp\\ht...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(125): dir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:54:47 --> dir(C:\xampp\htdocs\framework\writable\img/productos/,C:\xampp\htdocs\framework\writable\img/productos/): El sistema no puede encontrar la ruta especificada. (code: 3)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'dir(C:\\xampp\\ht...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(125): dir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:55:26 --> dir(C:\xampp\htdocs\framework\writable\img\productos,C:\xampp\htdocs\framework\writable\img\productos): El sistema no puede encontrar la ruta especificada. (code: 3)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'dir(C:\\xampp\\ht...', 'C:\\xampp\\htdocs...', 125, Array)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(125): dir('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:56:54 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(137): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 10:58:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(137): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 11:04:00 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(133): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 11:17:41 --> syntax error, unexpected 'imagen' (T_STRING)
+#0 C:\xampp\htdocs\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('productos')
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('productos')
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-05-23 11:32:03 --> Not unique table/alias: 'productos'
+ERROR - 2021-05-23 11:32:27 --> Not unique table/alias: 'productos'
+ERROR - 2021-05-23 11:37:50 --> Unknown column 'categorias' in 'where clause'
+CRITICAL - 2021-05-23 11:37:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(88): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:38:20 --> Unknown column 'categorias' in 'where clause'
+CRITICAL - 2021-05-23 11:38:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(88): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:38:36 --> Unknown column 'categorias' in 'where clause'
+CRITICAL - 2021-05-23 11:38:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(88): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:38:40 --> Unknown column 'categorias' in 'where clause'
+CRITICAL - 2021-05-23 11:38:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(88): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:39:05 --> Column 'estado' in where clause is ambiguous
+CRITICAL - 2021-05-23 11:39:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:39:08 --> Column 'estado' in where clause is ambiguous
+CRITICAL - 2021-05-23 11:39:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:39:38 --> Column 'estado' in where clause is ambiguous
+CRITICAL - 2021-05-23 11:39:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:41:27 --> Column 'estado' in where clause is ambiguous
+CRITICAL - 2021-05-23 11:41:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 11:42:25 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(131): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->registrar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:43:33 --> Unknown column 'me.id' in 'on clause'
+CRITICAL - 2021-05-23 11:43:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:43:58 --> Unknown column 'me.id' in 'on clause'
+CRITICAL - 2021-05-23 11:43:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 11:59:12 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2021-05-23 11:59:13 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2021-05-23 11:59:13 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2021-05-23 11:59:21 --> Table 'codeigniter.medidas' doesn't exist
+CRITICAL - 2021-05-23 11:59:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Medidas.php(38): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Medidas->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medidas))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 12:00:35 --> Unknown table 'codeigniter.categorias'
+ERROR - 2021-05-23 12:00:35 --> Unknown table 'codeigniter.marcas'
+ERROR - 2021-05-23 12:00:35 --> Unknown table 'codeigniter.medidas'
+ERROR - 2021-05-23 19:37:00 --> Unknown column 'productos.estado' in 'where clause'
+CRITICAL - 2021-05-23 19:37:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 19:37:16 --> Unknown column 'productos.estado' in 'where clause'
+CRITICAL - 2021-05-23 19:37:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 19:37:17 --> Unknown column 'productos.estado' in 'where clause'
+CRITICAL - 2021-05-23 19:37:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 19:38:20 --> Unknown column 'productos.estado' in 'where clause'
+CRITICAL - 2021-05-23 19:38:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 19:40:38 --> Unknown column 'productos.estado' in 'where clause'
+CRITICAL - 2021-05-23 19:40:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-05-23 19:43:18 --> Unknown column 'productos.estado' in 'where clause'
+CRITICAL - 2021-05-23 19:43:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Productos.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Productos->listar()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-05-23 20:10:11 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#3 {main}

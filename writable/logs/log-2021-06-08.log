@@ -1,0 +1,109 @@
+CRITICAL - 2021-06-08 09:11:37 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 09:14:17 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 09:15:25 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 09:23:35 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 09:24:03 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 09:24:05 --> Call to undefined method App\Controllers\Compras::getPost()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->ingresar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-08 09:25:52 --> Column 'id_usuario' cannot be null
+ERROR - 2021-06-08 09:28:51 --> Column 'id_usuario' cannot be null
+ERROR - 2021-06-08 09:30:24 --> Column 'id_usuario' cannot be null
+ERROR - 2021-06-08 09:46:59 --> Unknown column 'detalle.id_usuario' in 'where clause'
+CRITICAL - 2021-06-08 09:46:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Compras.php(74): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->detalle()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-06-08 09:51:03 --> Column 'id' in order clause is ambiguous
+CRITICAL - 2021-06-08 09:51:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\framework\app\Controllers\Compras.php(75): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->detalle()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-08 10:30:11 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->generar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 10:39:51 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->generar()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 10:53:49 --> Class 'FPDF' not found
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->generarPdf()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 10:56:30 --> Call to a member function setHeader() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->generarPdf()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 10:56:44 --> Call to undefined method FPDF::setHeader()
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->generarPdf()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-08 10:57:20 --> Call to a member function setHeader() on null
+#0 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Compras->generarPdf()
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-08 20:21:14 --> Table 'codeigniter.configuracion' doesn't exist
+CRITICAL - 2021-06-08 20:21:14 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\framework\app\Controllers\Admin.php(22): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-08 20:23:38 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\framework\app\Controllers\Admin.php on line 24
+#0 C:\xampp\htdocs\framework\app\Controllers\Admin.php(24): view('admin/index', NULL)
+#1 C:\xampp\htdocs\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\framework\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
